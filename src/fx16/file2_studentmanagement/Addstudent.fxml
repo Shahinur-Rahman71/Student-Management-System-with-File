@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="367.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx16.file2_studentmanagement.AddstudentController">
+   <children>
+      <Text fill="#3711ed" strokeType="OUTSIDE" strokeWidth="0.0" text="Please fillup all the field">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="159.0" top="6.0" />
+         </VBox.margin>
+      </Text>
+      <HBox alignment="CENTER" prefHeight="64.0" prefWidth="552.0" spacing="11.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Name : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="namefield" style="-fx-background-radius: 10;" />
+         </children>
+         <VBox.margin>
+            <Insets left="14.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="64.0" prefWidth="552.0" spacing="11.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Email : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="emailfield" style="-fx-background-radius: 10;" />
+         </children>
+         <padding>
+            <Insets left="25.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="64.0" prefWidth="552.0" spacing="11.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Department : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextField fx:id="deptfield" style="-fx-background-radius: 10;" />
+         </children>
+         <padding>
+            <Insets right="34.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="64.0" prefWidth="552.0" spacing="11.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Address : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextArea fx:id="addressfield" prefHeight="200.0" prefWidth="200.0" style="-fx-background-radius: 10;" />
+         </children>
+         <padding>
+            <Insets left="52.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="75.0" prefWidth="552.0" spacing="70.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button mnemonicParsing="false" onAction="#AddbuttonAction" style="-fx-background-color: black;" text="Add" textFill="#e80d0d">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#ResetbuttonAction" style="-fx-background-color: black;" text="Reset" textFill="#ee0808">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets top="11.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

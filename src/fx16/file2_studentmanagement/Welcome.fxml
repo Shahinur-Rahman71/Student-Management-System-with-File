@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="CENTER" layoutX="-3.0" layoutY="-1.0" prefHeight="408.0" prefWidth="578.0" style="-fx-background-color: green;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="-5.0" AnchorPane.topAnchor="-1.0">
+         <children>
+            <Circle fill="#ee0a15" radius="115.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
